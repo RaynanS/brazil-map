@@ -8,6 +8,8 @@ const App = () => {
 	const { weather, loading } = useAppSelector(selectWeather);
 
   return (
+  <>
+    <h1 className="title">Estados do Brasil</h1>
     <div className="app" style={{backgroundColor: BACKGROUND_COLOR}}>
       <div className="map">
         <MapChart />
@@ -25,7 +27,7 @@ const App = () => {
         }
       </div>
     </div>
-  )
+    </>  )
 }
 
 export default App;
