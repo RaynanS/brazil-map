@@ -4,7 +4,7 @@
 
 API - OPEN METEO
 <p align="center">
-<a href="https://open-meteo.com/"><img src="https://files.fm/u/bwdnujxtz"></a>
+<a href="https://open-meteo.com/"><img src="https://i.imgur.com/8jOmZk5.png"></a>
 </p>
   
 ## Installation
