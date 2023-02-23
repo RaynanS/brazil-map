@@ -16,7 +16,15 @@
   height: fit-content;
 }
 
+.loading {
+  font-weight: bold;
+}
+
 .weather {
-  padding: 1rem;
-  border: 1px solid black;
+  padding: 0.7rem;
+  background-color: #A6A867;
+  border-radius: 20px;
+  /* border: 2px solid black; */
+  box-shadow: 0px 0px 10px 0px;
+  font-weight: bold;
 }

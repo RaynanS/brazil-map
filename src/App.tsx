@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import './App.css';
 import MapChart from './components/mapChart';
 import { selectWeather } from './reducers/weather.slice';
@@ -16,11 +15,10 @@ const App = () => {
       <div className="infoContainer">
         {loading 
           ? <>
-            <p>Carregando...</p>
+            <p className="loading">Carregando...</p>
           </>
           : weather && <div className="weather">
             <p>Estado: {weather?.state_name}</p>
-            <p>Horario: {weather?.current_weather.time}</p>
             <p>Temperatura: {weather?.current_weather.temperature} °C</p>
             <p>Velocidade do Vento: {weather?.current_weather.windspeed} Km/s</p>
           </div>
